@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
 #define PHONENUMBER_LIMIT 11        //手机号
 #define NICKNAME_LIMIT 16           //昵称
@@ -72,7 +72,7 @@
  @param font 字体
  @return return value description
  */
-+ (CGSize)boundingRectWithText:(NSString *)text maxSize:(CGSize)size font:(UIFont *)font;
+//+ (CGSize)boundingRectWithText:(NSString *)text maxSize:(CGSize)size font:(UIFont *)font;
 
 
 //字符串添加千分位
