@@ -15,8 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];[UIFont];
-    
+    [super viewDidLoad];    
 }
 
 
