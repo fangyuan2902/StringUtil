@@ -117,26 +117,6 @@
     return dateFormatter;
 }
 
-/**
- 根据内容改变尺寸
- @param text 输入字符
- @param size 尺寸
- @param font 字体
- @return return value description
- */
-//+ (CGSize)boundingRectWithText:(NSString *)text maxSize:(CGSize)size font:(UIFont *)font {
-//    NSDictionary *attribute = @{NSFontAttributeName : font};
-//    CGSize retSize = [text boundingRectWithSize:size
-//                                        options:\
-//                      NSStringDrawingTruncatesLastVisibleLine |
-//                      NSStringDrawingUsesLineFragmentOrigin |
-//                      NSStringDrawingUsesFontLeading
-//                                     attributes:attribute
-//                                        context:nil].size;
-//    
-//    return retSize;
-//}
-
 //字符串添加千分位
 + (NSString *)setDetailLabelText:(NSString *)countString {
     if (![countString isKindOfClass:[NSString class]]) {

@@ -64,17 +64,6 @@
 //时间格式
 + (NSDateFormatter *)dateFormatterWithFormatString:(NSString *)format;
 
-
-/**
- 根据内容改变尺寸
- @param text 输入字符
- @param size 尺寸
- @param font 字体
- @return return value description
- */
-//+ (CGSize)boundingRectWithText:(NSString *)text maxSize:(CGSize)size font:(UIFont *)font;
-
-
 //字符串添加千分位
 + (NSString *)setDetailLabelText:(NSString *)countString;
 
