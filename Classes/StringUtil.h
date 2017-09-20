@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <UIKit/UIKit.h>
 
 #define PHONENUMBER_LIMIT 11        //手机号
 #define NICKNAME_LIMIT 16           //昵称

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "StringUtil.h"
 
+
 @interface ViewController ()
 
 @end
@@ -17,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    UILabel * label = [[UILabel alloc] init];
+    label.tag = 1000;
 }
 
 
